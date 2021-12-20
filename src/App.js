@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { Login } from "./Components/Login";
-import { Phone } from "./Components/Phone";
+import SIPProvider from "./Providers/SIP.provider";
 import { MainLayout } from "./Components/Layout";
 import { UserContext } from "./Providers/User.provider";
-import Main from "./Containers/index";
+import Main from "./Containers/index2";
 import { notification } from "antd";
 
 import "./App.less";
@@ -23,12 +23,11 @@ const App = () => {
     }
 
     return (
-        <Phone>
+        <SIPProvider user={user}>
             <MainLayout>
                 <Main />
             </MainLayout>
-            ;
-        </Phone>
+        </SIPProvider>
     );
 };
 

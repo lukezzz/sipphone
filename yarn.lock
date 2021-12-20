@@ -7138,7 +7138,7 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jssip@^3.5.7:
+jssip@^3.5.7, jssip@^3.8.2:
   version "3.8.2"
   resolved "https://registry.nlark.com/jssip/download/jssip-3.8.2.tgz#5701ee6cbd4a728676574c9e3a914b9e8d2b7a34"
   integrity sha1-VwHubL1KcoZ2V0yeOpFLno0rejQ=
